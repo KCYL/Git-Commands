@@ -40,3 +40,13 @@ git remote add origin git@github.com:KCYL/testing.git # On the remote repo add t
 git remote -v # checks the link (SSH or HTTPS)
 git push -u origin master # Pushes the commits to github 
 ```
+## Pushing branches to github 
+```
+git push -u origin mark2 # Pushes specific branch to online repo
+# From the online repo you merge the branch with the master by creating a pull merge request 
+```
+
+## Pulling changes from github 
+```
+git pull -rebase # Pulls all changes from the online repo, the rebase puts your most recent push on top of the changes (Just in case there are multiple pushing code)
+```
