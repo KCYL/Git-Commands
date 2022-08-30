@@ -29,3 +29,8 @@ git branch mark1 # Creates a new branch
 ```
 git checkout mark1 # Switches to the specific branch 
 ``` 
+## Merging branches 
+```
+git checkout master # Move to the branch that you want to merge another branch to 
+git merge mark1 # Merges branch to current git branch
+```
