@@ -48,5 +48,5 @@ git push -u origin mark2 # Pushes specific branch to online repo
 
 ## Pulling changes from github 
 ```
-git pull -rebase # Pulls all changes from the online repo, the rebase puts your most recent push on top of the changes (Just in case there are multiple pushing code)
+git pull --rebase # Pulls all changes from the online repo, the rebase puts your most recent push on top of the changes (Just in case there are multiple pushing code)
 ```
